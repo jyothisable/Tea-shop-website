@@ -153,6 +153,7 @@ figure figcaption {
     align-items: center;
     width:75%;
     margin:0 auto;
+    max-width:1000px;
 }
 
 .location-container div {
