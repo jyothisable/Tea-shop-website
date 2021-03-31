@@ -97,7 +97,7 @@ main,footer {
     line-height: 19px;
 }
 .mission p {
-    text-transform: lowercase;
+    text-transform: initial;
     padding: 0 10px;
 }
 
