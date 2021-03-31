@@ -69,10 +69,16 @@ main,footer {
     top: 70px;
 }
 
-@media only screen and (max-width:481px) {
+@media only screen and (max-width:650px) {
     header {
+        padding: 0 1%;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    header {
+        padding: 0 1%;
         justify-content:center;
-        padding: 0;
     }
 }
 
