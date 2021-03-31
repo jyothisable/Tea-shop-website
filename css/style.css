@@ -96,7 +96,10 @@ main,footer {
     width: 100%;
     line-height: 19px;
 }
-
+.mission p {
+    text-transform: initial;
+    padding: 0 10px;
+}
 
 /*Tea types*/
 .tea-of-month{
@@ -153,10 +156,6 @@ figure figcaption {
     height:230px;
     margin:10px;
     border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
 }
 
 /*footer*/
