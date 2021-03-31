@@ -9,7 +9,7 @@ html {
     font-family: helvetica, arial;
     font-size: 22px;
     color:seashell;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     opacity:0.9;
     text-align: center;
 }
@@ -20,19 +20,25 @@ header {
     justify-content:space-between;
     width:100%;
     position:fixed;
-    margin: 0 10px;
+    padding:0 10px;
     border-bottom: 1px solid seashell;
     z-index: 10;
+    background-color: black;
+    flex-wrap:wrap;
 }
 
 nav {
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
 }
 
 nav ul {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: space-between;
     margin:0;
 }
 nav ul li{
@@ -41,4 +47,74 @@ nav ul li{
     margin: 1em .5em;
 }
 
+nav a:hover {
+    opacity: .7;
+}
 
+nav a:visited, a:link {
+    color:inherit
+}
+
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+@media only screen and (max-width:371px) {
+    main {
+        position: relative;
+        top: 190px;
+    }
+}
+
+
+/*Hero section*/
+.hero {
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height:50%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.mission {
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 100%;
+}
+
+.mission h2 {
+    line-height:.2em;
+
+
+}
+
+/*Tea types*/
+
+.tea-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.tea-container figure {
+    width:300px;
+    height:200px;
+    padding:0px;
+    
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+figure figcaption {
+    margin-top:10px;
+}
