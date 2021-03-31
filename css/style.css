@@ -31,8 +31,8 @@ header {
 }
 
 header img {
-    height:50px;
-    margin: 10px 0;
+    height:69px;
+    width:100px;
 }
 nav {
     display:flex;
@@ -70,10 +70,6 @@ main,footer {
 }
 
 @media only screen and (max-width:481px) {
-    main {
-        position: relative;
-        top: 92px;
-    }
     header {
         justify-content:center;
     }
@@ -164,7 +160,13 @@ figure figcaption {
 }
 
 /*footer*/
+footer h2{
+    text-transform: capitalize;
+}
 
+footer address {
+    font-size: .9em;
+}
 footer>p {
     font-size:.7em;
     text-align: left;
