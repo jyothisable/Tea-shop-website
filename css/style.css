@@ -103,7 +103,6 @@ main,footer {
 
 /*Tea types*/
 .tea-of-month{
-    line-height: .7;
     padding: 20px 0;
 }
 .tea-container {
@@ -167,6 +166,5 @@ footer address {
     font-size: .9em;
 }
 footer>p {
-    font-size:.7em;
-    text-align: left;
+    font-size:.6em;
 }
