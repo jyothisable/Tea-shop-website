@@ -64,9 +64,8 @@ nav a:visited, a:link {
 }
 
 
-main,footer {
-    position: relative;
-    top: 70px;
+main {
+    padding-top:70px;
 }
 
 @media only screen and (max-width:650px) {
